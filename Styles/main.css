@@ -1,0 +1,47 @@
+/* Remove bullet points and style nav background */
+nav ul {
+    list-style-type: none;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+/* Display nav items inline */
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+/* Style nav links */
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+/* Hover effect */
+nav ul li a:hover {
+    color: red;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+/* Even row background */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Bordered image class */
+.bordered-image {
+    border: 3px solid black;
+}
+
